@@ -1,0 +1,20 @@
+---
+title: "Analyse de Données"
+author: "Priestley"
+date: "2023-04-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(FactoMineR)
+```
+```{r}
+df<- read_excel("Copy of MERL_SWASSA  - Enquête annuelle -  Enquête annuelle_Kavumu_Katana (created 2023-03-29) 2023-03-29 (1).xlsx",sheet = "annuelle")
+```
+
